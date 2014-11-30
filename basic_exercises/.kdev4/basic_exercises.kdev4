@@ -1,0 +1,30 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x1e\x00b\x00a\x00s\x00i\x00c\x00_\x00e\x00x\x00e\x00r\x00c\x00i\x00s\x00e\x00s)
+
+[CMake]
+BuildDirs=/home/ambreen/projects/basic_exercises/build
+CMakeDir=/usr/local/share/cmake-3.1/Modules
+Current CMake Binary=file:///usr/local/bin/cmake
+CurrentBuildDir=file:///home/ambreen/projects/basic_exercises/build
+CurrentBuildType=Debug
+CurrentInstallDir=
+Extra Arguments=
+ProjectRootRelative=./
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=ds_tests
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Configured from ProjectItem=basic_exercises,mb_ds,test,ds_tests
+Project Target=basic_exercises,mb_ds,test,ds_tests
+Working Directory=file:///home/ambreen/projects/basic_exercises/build/mb_ds/test/
+isExecutable=false
+
+[Project]
+VersionControlSupport=kdevgit
