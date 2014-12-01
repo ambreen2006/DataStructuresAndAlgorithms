@@ -31,9 +31,10 @@ public:
   MBList();
   virtual ~MBList() {};
   virtual void insert(int _data);
-  virtual bool	remove() {};
-  virtual MBNode* find(int _lookup);
+  virtual bool	remove(int _lookup);
+  virtual shared_ptr<MBNode> find(int _lookup);
   virtual size_t count() const;
+  virtual void print() const;
     
 private:
   shared_ptr<MBNode> head;
