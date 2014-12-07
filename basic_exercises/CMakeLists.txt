@@ -18,3 +18,4 @@ set(GMOCK_LIBS_DIR "/usr/local/lib/gmock_main.a")
 
 add_subdirectory(mb_ds)
 add_subdirectory(userapp)
+add_subdirectory(mb_algorithms)
