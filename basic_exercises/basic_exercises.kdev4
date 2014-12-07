@@ -1,0 +1,4 @@
+[Project]
+Name=basic_exercises
+Manager=KDevCMakeManager
+VersionControl=kdevgit
