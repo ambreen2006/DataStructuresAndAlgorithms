@@ -6,7 +6,6 @@
 
 #include <iostream>
 #include <memory>
-#include <math.h>
 #include <stack>
 
 using namespace std;
