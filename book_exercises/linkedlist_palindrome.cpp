@@ -11,7 +11,7 @@
 using namespace std;
 
 struct Node {
-    char value;
+    int value;
     shared_ptr<Node> next;
     Node(char v) : value(v) {};
 };
@@ -24,7 +24,7 @@ void createSampleList(string str)
     for (const char ch : str)
     {
         if(!head) {
-            head.reset(new Node(ch));
+            head = make_shared<Node>(ch);
             ptr = head;
         }
         else {
@@ -49,7 +49,7 @@ bool isPalindrome() {
 
     auto slow = head;
     auto fast = head;
-    stack<char> tempStack;
+    stack<int> tempStack;
 
     while (fast != nullptr && fast->next != nullptr)
     {
